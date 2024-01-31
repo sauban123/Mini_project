@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/courtimg"
+    tools:context=".WelcomeActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Justice- Swift "
+        android:textColor="#030303"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tVWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#030303"
+        android:text="Welcome ->"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMail"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:textSize="15dp"-->
+<!--        android:text="MAIL" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvUnique"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:textSize="15dp"-->
+<!--        android:text="UNIQUE ID" />-->
+    <Button
+        android:id="@+id/btnjudge"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tVWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#333939"
+        android:text="Judge"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnlawyer"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnjudge"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#333939"
+        android:text="Lawyer"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnconsumer"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/btnjudge"
+        android:layout_marginLeft="190dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#333939"
+        android:text="Consumer"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>

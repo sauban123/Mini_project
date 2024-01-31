@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "543824017135",
+    "project_id": "authentication-fa3db",
+    "storage_bucket": "authentication-fa3db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543824017135:android:7c23f5a8442d7a866c4d1a",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9nbdgRg2Ckj2Ng5CQTDAQ5etslO1tOeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
